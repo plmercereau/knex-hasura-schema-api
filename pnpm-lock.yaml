@@ -7,6 +7,7 @@ specifiers:
   cross-fetch: ^3.1.5
   knex: ^2.3.0
   knex-mock-client: ^1.8.4
+  knex-schema-inspector: ^2.0.4
   lodash.clonedeep: ^4.5.0
   lodash.map: ^4.6.0
   pg: ^8.8.0
@@ -17,6 +18,7 @@ dependencies:
   cross-fetch: 3.1.5
   knex: 2.3.0_pg@8.8.0
   knex-mock-client: 1.8.4_knex@2.3.0
+  knex-schema-inspector: 2.0.4
   lodash.clonedeep: 4.5.0
   lodash.map: 4.6.0
   pg: 8.8.0
@@ -198,6 +200,13 @@ packages:
       lodash.clonedeep: 4.5.0
     dev: false
 
+  /knex-schema-inspector/2.0.4:
+    resolution: {integrity: sha512-UGCB6sXhejQMr9Kd39hacAdIG8JEhr9LboOuBTT41jvDgGu0FRbdtqdnWfbv56Sfz5YoN5zkJt7upZCLEaY73Q==}
+    dependencies:
+      lodash.flatten: 4.4.0
+      lodash.isnil: 4.0.0
+    dev: false
+
   /knex/2.3.0_pg@8.8.0:
     resolution: {integrity: sha512-WMizPaq9wRMkfnwKXKXgBZeZFOSHGdtoSz5SaLAVNs3WRDfawt9O89T4XyH52PETxjV8/kRk0Yf+8WBEP/zbYw==}
     engines: {node: '>=12'}
@@ -247,6 +256,14 @@ packages:
 
   /lodash.clonedeep/4.5.0:
     resolution: {integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==}
+    dev: false
+
+  /lodash.flatten/4.4.0:
+    resolution: {integrity: sha512-C5N2Z3DgnnKr0LOpv/hKCgKdb7ZZwafIrsesve6lmzvZIRZRGaZ/l6Q8+2W7NaT+ZwO3fFlSCzCzrDCFdJfZ4g==}
+    dev: false
+
+  /lodash.isnil/4.0.0:
+    resolution: {integrity: sha512-up2Mzq3545mwVnMhTDMdfoG1OurpA/s5t88JmQX809eH3C8491iu2sfKhTfhQtKY78oPNhiaHJUpT/dUDAAtng==}
     dev: false
 
   /lodash.map/4.6.0:

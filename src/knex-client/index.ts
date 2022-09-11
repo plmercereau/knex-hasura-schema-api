@@ -43,6 +43,10 @@ export class HasuraSchemaApiClient extends knex.Client {
     if (config.dialect) {
       this._attachDialectQueryCompiler(config)
     }
+
+    Object.defineProperty(this.constructor, 'name', {
+      value: 'Client_PG'
+    })
   }
 
   public acquireConnection() {
